@@ -1,6 +1,6 @@
 import CardTitle  from "./cards/CardTitle";
 import CardSub  from "./cards/CardSub";
-import CardTime  from "./cards/CardYear";
+import CardTime  from "./cards/CardTimeFromTo";
 import CardDetail  from "./cards/CardDetail";
 import { CardType } from "../types";
 

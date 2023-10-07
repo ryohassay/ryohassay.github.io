@@ -1,4 +1,4 @@
-const CardTime = ({ from, to }: { from: Date, to: Date}) => {
+const CardTimeFromTo = ({ from, to }: { from: Date, to: Date}) => {
     const locale = "en-GB"
     const options: Intl.DateTimeFormatOptions = { year: "numeric", month: "long" };
     
@@ -9,4 +9,4 @@ const CardTime = ({ from, to }: { from: Date, to: Date}) => {
     )
 }
 
-export default CardTime;
+export default CardTimeFromTo;

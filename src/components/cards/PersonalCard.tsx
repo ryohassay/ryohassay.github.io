@@ -2,7 +2,7 @@ import CardTitle  from "./CardTitle";
 import CardDetail  from "./CardDetail";
 import { PersonalCardType } from "../../types";
 
-const Card = ({ titleText, detailText }: PersonalCardType) => {
+const PersonalCard = ({ titleText, detailText }: PersonalCardType) => {
     return (
         <div className="card">
             <CardTitle text={titleText} />
@@ -11,4 +11,4 @@ const Card = ({ titleText, detailText }: PersonalCardType) => {
     )
 };
 
-export default Card;
+export default PersonalCard;

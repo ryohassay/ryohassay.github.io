@@ -13,7 +13,7 @@ body {
 .header-container {
     color: #b0b4c2;
     background-color: #001151;
-    padding: 30px
+    padding: 30px;
 }
 
 .title {
@@ -54,6 +54,7 @@ body {
 
 .main {
     margin: 35px;
+    margin-bottom: 120px;
     white-space: pre-wrap;
     display: flex;
     flex-direction: column;
@@ -76,7 +77,23 @@ body {
     margin: 5px;
 }
 
+table {
+    width: 45%;
+}
+
+.td-logo {
+    width: 40px;
+}
+
+.contact-card {
+    text-align: left;
+}
+
 .footer-container {
+    /* position: sticky; */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     padding: 30px;
     color: #b0b4c2;
     background-color: #001151;
