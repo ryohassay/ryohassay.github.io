@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+/* Noto Sans Regular 400 from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+
+/* .App-link {
+    color: #61dafb;
+} */
+
+body {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-container {
+    color: #b0b4c2;
+    background-color: #001151;
+    padding: 30px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+    margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sub-title {
+    margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.page-index-container {
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-index-element {
+    width: calc(100% / 9);
+    padding: 0.5rem;
+    border: 10px;
+    text-align: center;
+    /* text-decoration: none; */
+    border-color: white;
+    background-color: #001151;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.page-index-link {
+    color: #b0b4c2;
+    text-decoration: none;
+}
+
+.page-index-link:hover {
+    text-decoration: underline;
+}
+
+.page-title {
+    margin: 30px;
+}
+
+.main {
+    margin: 35px;
+    white-space: pre-wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin-bottom: 20px;
+    border-color: #848cac;
+}
+
+.card-sub {
+    margin: 5px;
+}
+
+.card-time {
+    margin: 5px;
+}
+
+.card-detail {
+    margin: 5px;
+}
+
+.footer-container {
+    padding: 30px;
+    color: #b0b4c2;
+    background-color: #001151;
+}
+
+.copy-right {
+    margin: 10px;
+    min-width: 22rem;
 }

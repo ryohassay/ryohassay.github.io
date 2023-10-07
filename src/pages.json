@@ -1,0 +1,38 @@
+[
+    {
+        "path": "/",
+        "title": "Home"
+    },
+    {
+        "path": "/education",
+        "title": "Education"
+    },
+    {
+        "path": "/work",
+        "title": "Work Experience"
+    },
+    {
+        "path": "/project",
+        "title": "Projects"
+    },
+    {
+        "path": "/skill",
+        "title": "Skills"
+    },
+    {
+        "path": "/qualification",
+        "title": "Qualifications"
+    },
+    {
+        "path": "/personal",
+        "title": "Personal Interests"
+    },
+    {
+        "path": "/resume",
+        "title": "CV"
+    },
+    {
+        "path": "/contact",
+        "title": "Contact"
+    }
+]
