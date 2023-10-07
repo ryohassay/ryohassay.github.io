@@ -7,7 +7,7 @@ import { PageIndexType } from "../types";
 
 import LinkedInUrl from "../img/LinkedIn.png";
 import WantedlyUrl from "../img/Wantedly.png";
-import GitHubUrl from "../img/GitHub-mark.png"
+import GitHubUrl from "../img/GitHub-mark.png";
 
 const title: string = "Contact";
 

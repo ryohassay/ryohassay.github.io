@@ -12,7 +12,10 @@ const ResumePage = ({ pagesJson }: PageIndexType) => {
             <Header />
             <PageIndex pagesJson={pagesJson} />
             <PageTitle pageTitle={title}/>
-            <div className="main"></div>
+            {/* Fix this */}
+            <div className="main">
+                <a href="%PUBLIC_URL%/profile_jp.pdf">Profile document (in Japanese)</a>
+            </div>
             <Footer />
         </div>
     )
