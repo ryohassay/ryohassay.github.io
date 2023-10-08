@@ -8,7 +8,7 @@ const CodingSkillCard = ({ codingSkillsJson }: CodingSkillCardType) => {
             <div className="coding-skill-list">
                 {codingSkillsJson.map((skill, index) => 
                     <div className="coding-skill-list-item" key={index}>
-                        <img src={skill.skillLogoUrl} height="80px"/>
+                        <img src={skill.skillLogoUrl} height="80px" alt="" />
                         <div>{skill.skillText}</div>
                         {skill.subText && <> ({skill.subText})</>}
                     </div> 
