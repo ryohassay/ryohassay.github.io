@@ -40,6 +40,21 @@ export type SkillCardType = {
     }[],
 }
 
+type codingSkillsJsonType = {
+    skillText: string,
+    subText: string,
+    skillLogoUrl: string,
+}[]
+
+export type CodingSkillCardType = {
+    codingSkillsJson: codingSkillsJsonType
+}
+
+export type SkillPageType = {
+    pagesJson: PagesJsonType, 
+    codingSkillsJson: codingSkillsJsonType
+}
+
 export type QualificationCardType = {
     titleText: string,
     time: Date,

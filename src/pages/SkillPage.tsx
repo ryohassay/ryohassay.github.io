@@ -2,31 +2,24 @@ import Header from "../components/Header";
 import PageIndex from "../components/PageIndex";
 import PageTitle from "../components/PageTitle";
 import SkillCard from "../components/cards/SkillCard";
+import CodingSkillCard from "../components/cards/CodingSkillCard";
 import Footer from "../components/Footer";
-import { PageIndexType } from "../types";
+import { SkillPageType } from "../types";
 
 const title: string = "Skills";
 
-const SkillPage = ({ pagesJson }: PageIndexType) => {
+const SkillPage = ({ pagesJson, codingSkillsJson }: SkillPageType) => {
+
+
+
+    
     return (
         <div className="page-container">
             <Header />
             <PageIndex pagesJson={pagesJson} />
             <PageTitle pageTitle={title}/>
             <div className="main">
-                <SkillCard 
-                    titleText="Coding" 
-                    skills={[
-                        {skillText: "Python", subText: ""}, 
-                        {skillText: "C/C++", subText: ""}, 
-                        {skillText: "Java", subText: "beginner"}, 
-                        {skillText: "HTML / CSS / JavaScript", subText: "beginner"}, 
-                        {skillText: "React", subText: "beginner"}, 
-                        {skillText: "Selenium", subText: "beginner"}, 
-                        {skillText: "OpenCV", subText: ""}, 
-                        {skillText: "PyTorch", subText: "beginner"}, 
-                    ]}        
-                />
+                <CodingSkillCard codingSkillsJson={codingSkillsJson} />
 
                 <SkillCard 
                     titleText="Languages" 

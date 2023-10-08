@@ -15,7 +15,7 @@ const ResumePage = ({ pagesJson }: PageIndexType) => {
             <PageTitle pageTitle={title}/>
             <div className="main">
                 <div className="resume">
-                    My CV and other documents are on <a className="inline-link" target="_blank" rel="noopener" href={linkedinUrl}>my LinkedIn profile pages</a>. For Japanese documents, please send an email through the email address written on <a className="inline-link" target="_blank" rel="noopener" href={linkedinUrl}>the LinkedIn page</a>.
+                    My CV and other documents are on <a className="inline-link" target="_blank" rel="noreferrer" href={linkedinUrl}>my LinkedIn profile pages</a>. For Japanese documents, please send an email through the email address written on <a className="inline-link" target="_blank" rel="noreferrer" href={linkedinUrl}>the LinkedIn page</a>.
                 </div>
                 
             </div>

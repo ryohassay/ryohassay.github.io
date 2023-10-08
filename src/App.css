@@ -10,6 +10,11 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+h3 {
+    /* margin: top right bottom left */
+    margin: 0px 0px 10px 0px;
+}
+
 .header-container {
     color: #b0b4c2;
     background-color: #001151;
@@ -61,8 +66,11 @@ body {
 }
 
 .card {
+    padding: 20px;
     margin-bottom: 20px;
-    border-color: #848cac;
+    background-color: #dfe1e7;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .5);
 }
 
 .card-sub {
@@ -75,6 +83,18 @@ body {
 
 .card-detail {
     margin: 5px;
+}
+
+/* CodingSkillCard.tsx */
+.coding-skill-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.coding-skill-list-item {
+    text-align: center;
+    flex-direction: column;
 }
 
 .inline-link {
