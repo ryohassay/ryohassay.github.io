@@ -1,4 +1,4 @@
-const title: string = "Ryoji Hasegawa";
+const title: string = "Ryoji HASEGAWA";
 
 const Title = () => {
     return (

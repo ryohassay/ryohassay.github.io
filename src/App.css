@@ -77,6 +77,10 @@ body {
     margin: 5px;
 }
 
+.inline-link {
+    display: inline;
+}
+
 table {
     width: 45%;
 }

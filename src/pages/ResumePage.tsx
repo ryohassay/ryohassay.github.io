@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import { PageIndexType } from "../types";
 
 const title: string = "CV";
+const linkedinUrl: string = "https://www.linkedin.com/in/ryoji-hasegawa/";
 
 const ResumePage = ({ pagesJson }: PageIndexType) => {
     return (
@@ -12,9 +13,11 @@ const ResumePage = ({ pagesJson }: PageIndexType) => {
             <Header />
             <PageIndex pagesJson={pagesJson} />
             <PageTitle pageTitle={title}/>
-            {/* Fix this */}
             <div className="main">
-                <a href="%PUBLIC_URL%/profile_jp.pdf">Profile document (in Japanese)</a>
+                <div className="resume">
+                    My CV and other documents are on <a className="inline-link" target="_blank" rel="noopener" href={linkedinUrl}>my LinkedIn profile pages</a>. For Japanese documents, please send an email through the email address written on <a className="inline-link" target="_blank" rel="noopener" href={linkedinUrl}>the LinkedIn page</a>.
+                </div>
+                
             </div>
             <Footer />
         </div>
