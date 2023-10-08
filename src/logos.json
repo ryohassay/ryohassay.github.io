@@ -1,0 +1,57 @@
+[
+    {
+        "skillText": "Python",
+        "subText": "",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    {
+        "skillText": "C",
+        "subText": "",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+    },
+    {
+        "skillText": "C++",
+        "subText": "",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+    },
+    {
+        "skillText": "Java",
+        "subText": "Beginner",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+    },
+    {
+        "skillText": "HTML",
+        "subText": "Beginner",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+        "skillText": "CSS",
+        "subText": "Beginner",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+        "skillText": "JavaScript",
+        "subText": "Beginner",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+        "skillText": "React",
+        "subText": "Beginner",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+        "skillText": "Selenium",
+        "subText": "Beginner",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg"
+    },
+    {
+        "skillText": "OpenCV",
+        "subText": "",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+    },
+    {
+        "skillText": "PyTorch",
+        "subText": "Beginner",
+        "skillLogoUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+    }
+]

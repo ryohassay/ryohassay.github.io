@@ -3,7 +3,7 @@ import { SkillCardType } from "../../types";
 
 const SkillCard = ({ titleText, skills }: SkillCardType) => {
     return (
-        <div className="skill-card">
+        <div className="card">
             <CardTitle text={titleText} />
             <ul>
                 {skills.map((skill, index) => 

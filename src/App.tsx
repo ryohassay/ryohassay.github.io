@@ -1,5 +1,4 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
-import pagesJson from "./pages.json";
 import TopPage from './pages/TopPage';
 import EducationPage from './pages/EducationPage'
 import WorkPage from './pages/WorkPage'
@@ -9,6 +8,8 @@ import QualificationPage from './pages/QualificationPage'
 import PersonalPage from './pages/PersonalPage'
 import ResumePage from './pages/ResumePage'
 import ContactPage from './pages/ContactPage'
+import pagesJson from "./pages.json";
+import codingSkillsJson from "./logos.json";
 import './App.css';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
                 <Route path='education' element={<EducationPage pagesJson={pagesJson} />} />
                 <Route path='work' element={<WorkPage pagesJson={pagesJson} />} />
                 <Route path='project' element={<ProjectPage pagesJson={pagesJson} />} />
-                <Route path='skill' element={<SkillPage pagesJson={pagesJson} />} />
+                <Route path='skill' element={<SkillPage pagesJson={pagesJson} codingSkillsJson={codingSkillsJson}/>} />
                 <Route path='qualification' element={<QualificationPage pagesJson={pagesJson} />} />
                 <Route path='personal' element={<PersonalPage pagesJson={pagesJson} />} />
                 <Route path='resume' element={<ResumePage pagesJson={pagesJson} />} />
