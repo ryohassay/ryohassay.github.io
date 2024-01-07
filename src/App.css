@@ -85,6 +85,29 @@ h3 {
     margin: 5px;
 }
 
+/* TopPage.tsx */
+.text {
+    margin-bottom: 10px;
+}
+
+.map {
+    text-align: center;
+}
+.map-title {
+    margin: 10px 0px 5px 0px;
+}
+
+.map-frame {
+    text-align: center;
+    margin: 10px;
+    height: calc(480px - 68px);
+    overflow: hidden;
+}
+
+.map iframe {
+    margin-top: -68px;
+}
+
 /* CodingSkillCard.tsx */
 .coding-skill-list {
     display: flex;
