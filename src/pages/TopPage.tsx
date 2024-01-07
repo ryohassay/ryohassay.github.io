@@ -14,9 +14,11 @@ const TopPage = ({ pagesJson }: PageIndexType) => {
             <PageTitle pageTitle={title}/>
             <div className="main">
                 <div className="text">
-                    I am an aspiring engineering student who prides myself on my careful work and efficiency. While studying electronics at university, I also have programming experience in C++, Python, and other languages and frameworks. I am interested in both hardware and software. 
-                    
-                    After graduating from high school in Japan, I have attended university in the US, China and Malaysia, so I am good at teamwork with people from different backgrounds and perspectives.
+                    I am an aspiring engineering student who prides myself on my careful work and efficiency. While studying electronics at university, I also have programming experience in C++, Python, and other languages and frameworks. I am interested in both hardware and software as I worked on robotics and image recognition projects at university and an internship. <br />
+                    <br />
+                    I also like to learn natural languages such as Mandarin Chinese, Korean, Malay/Indonesian, and Cantonese. I am a native Japanese speaker and speak English as a second language, as well. <br />
+                    <br />
+                    After graduating from high school in Japan, I have attended university in the US, China and Malaysia, and I was involved in establishing and running a student organization in diverse environment, so I am good at teamwork with people from different backgrounds and perspectives. I was also fortunate enough to have various exchange programs with students from Singapore, China, and Taiwan and travels to New Zealand, Hong Kong, Macau, the US, and Malaysia.
                 </div>
 
                 <div className="map">
