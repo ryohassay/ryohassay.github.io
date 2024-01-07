@@ -4,8 +4,8 @@ import { PageIndexType } from "../types";
 const PageIndex = ({ pagesJson }: PageIndexType) => {
     return (
         <nav className="page-index-container">
-            {pagesJson.map((page) => 
-                <PageIndexElement path={page.path} title={page.title}/> 
+            {pagesJson.map((page, i) => 
+                <PageIndexElement key={i} path={page.path} title={page.title}/> 
             )}  
         </nav>
     )
