@@ -3,6 +3,7 @@ import PageIndex from "../components/PageIndex";
 import PageTitle from "../components/PageTitle";
 import Footer from "../components/Footer";
 import { PageIndexType } from "../types";
+import { t } from "i18next";
 
 const title: string = "About Me";
 
@@ -11,7 +12,7 @@ const TopPage = ({ pagesJson }: PageIndexType) => {
         <div className="page-container">
             <Header />
             <PageIndex pagesJson={pagesJson} />
-            <PageTitle pageTitle={title}/>
+            <PageTitle pageTitle={t("topPage.title")}/>
             <div className="main">
                 <div className="text">
                     I am an aspiring engineering student who prides myself on my careful work and efficiency. While studying electronics at university, I also have programming experience in C++, Python, and other languages and frameworks. I am interested in both hardware and software as I worked on robotics and image recognition projects at university and an internship. <br />
