@@ -4,7 +4,7 @@
 
     "topPage": {
         "title": "自己紹介",
-        "about": "私は注意深さと効率性を自慢とするエンジニアです。大学で電気電子工学を専攻した一方でC++やPython、その他の言語やフレームワークを使ったプログラミングが得意です。大学やインターンシップでロボティクスや画像認識のプロジェクトを行った経験からハードウェアとソフトウェア両方に興味があります。\\nプログラミング言語の他、中国語・韓国語・マレー/インドネシア語・広東語も勉強しており、また日本語（ネイティブ）と英語（第二言語）が話せます。\\n日本の高校を卒業した後、アメリカ・中国・マレーシアの大学に行き、学生団体の立ち上げと運営を行った経験から、様々なバックグラウンドや考え方を持った人達とのチームワークが得意です。",
+        "about": "私は注意深さと効率性を自慢とするエンジニアです。大学で電気電子工学を専攻した一方でC++やPython、その他の言語やフレームワークを使ったプログラミングが得意です。大学やインターンシップでロボティクスや画像認識のプロジェクトを行った経験からハードウェアとソフトウェア両方に興味があります。\nプログラミング言語の他、中国語・韓国語・マレー/インドネシア語・広東語も勉強しており、また日本語（ネイティブ）と英語（第二言語）が話せます。\n日本の高校を卒業した後、アメリカ・中国・マレーシアの大学に行き、学生団体の立ち上げと運営を行った経験から、様々なバックグラウンドや考え方を持った人達とのチームワークが得意です。",
         "map_title": "通ったことのある大学と行ったことのある場所"
     },
 
@@ -13,12 +13,12 @@
         "card1": {
             "title": "University of Nottingham Malaysia | Selangor, Malaysia",
             "sub": "BEng (Hons) in Electrical and Electronic Engineering (graduating)",
-            "detail": "I learnt about transistors, motor mechanisms, assembly language and computer vision. For my graduation research, I worked on a project that used Raspberry Pi, Python, OpenCV, and PyTorch to count the number of people in a crowd from camera images using deep learning techniques and display them in a web application. \\n\\nI participated in the badminton team on campus and a kyudo club off campus, too."
+            "detail": "I learnt about transistors, motor mechanisms, assembly language and computer vision. For my graduation research, I worked on a project that used Raspberry Pi, Python, OpenCV, and PyTorch to count the number of people in a crowd from camera images using deep learning techniques and display them in a web application. \n\nI participated in the badminton team on campus and a kyudo club off campus, too."
         },
         "card2": {
             "title": "University of Nottingham Ningbo China | Zhejiang, China",
             "sub": "BEng (Hons) in Electrical and Electronic Engineering (completed the second and third years)",
-            "detail": "I worked on a project to create a robotic car using a microcomputer to control motors and sensors, learning to build hardware components and code. \\n\\nI also participated in the badminton club and ultimate frisbee club on campus."
+            "detail": "I worked on a project to create a robotic car using a microcomputer to control motors and sensors, learning to build hardware components and code. \n\nI also participated in the badminton club and ultimate frisbee club on campus."
         },
         "card3": {
             "title": "DePauw University | Indiana, US",
@@ -28,7 +28,7 @@
         "card4": {
             "title": "Makuhari Junior and Senior High School | Chiba, Japan",
             "sub": "High school diploma",
-            "detail": "I wrote a graduation thesis on the theme of 'the Locational Concentration of Nuclear Power Plants in Japan', and gained an award. \\n\\nI also lead the school badminton team as its vice-captain."
+            "detail": "I wrote a graduation thesis on the theme of 'the Locational Concentration of Nuclear Power Plants in Japan', and gained an award. \n\nI also lead the school badminton team as its vice-captain."
         }
     }
 }
