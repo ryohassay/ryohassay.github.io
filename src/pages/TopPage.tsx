@@ -3,11 +3,31 @@ import PageIndex from "../components/PageIndex";
 import PageTitle from "../components/PageTitle";
 import Footer from "../components/Footer";
 import { PageIndexType } from "../types";
-import { t } from "i18next";
+
+import { useTranslation } from 'react-i18next';
+import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 const title: string = "About Me";
 
 const TopPage = ({ pagesJson }: PageIndexType) => {
+    const { t, i18n } = useTranslation();
+    const { lang } = useParams();
+    
+    console.log(lang);
+    
+    useEffect(() => {
+        if(lang === 'en') {
+            i18n.changeLanguage('en');
+        }
+        else if(lang === 'jp') {
+            i18n.changeLanguage('ja');
+        }
+        else {
+            i18n.changeLanguage('en');
+        }
+    }, [lang, i18n]);
+    
     return (
         <div className="page-container">
             <Header />
@@ -15,11 +35,7 @@ const TopPage = ({ pagesJson }: PageIndexType) => {
             <PageTitle pageTitle={t("topPage.title")}/>
             <div className="main">
                 <div className="text">
-                    I am an aspiring engineering student who prides myself on my careful work and efficiency. While studying electronics at university, I also have programming experience in C++, Python, and other languages and frameworks. I am interested in both hardware and software as I worked on robotics and image recognition projects at university and an internship. <br />
-                    <br />
-                    I also like to learn natural languages such as Mandarin Chinese, Korean, Malay/Indonesian, and Cantonese. I am a native Japanese speaker and speak English as a second language, as well. <br />
-                    <br />
-                    After graduating from high school in Japan, I have attended university in the US, China and Malaysia, and I was involved in establishing and running a student organization in diverse environment, so I am good at teamwork with people from different backgrounds and perspectives. I was also fortunate enough to have various exchange programs with students from Singapore, China, and Taiwan and travels to New Zealand, Hong Kong, Macau, the US, and Malaysia.
+                    {t("topPage.about")}
                 </div>
 
                 <div className="map">

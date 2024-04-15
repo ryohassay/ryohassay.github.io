@@ -5,9 +5,13 @@ import ProjectCard from "../components/cards/ProjectCard";
 import Footer from "../components/Footer";
 import { PageIndexType } from "../types";
 
+import { useTranslation } from 'react-i18next';
+
 const title: string = "Projects";
 
 const ProjectPage = ({ pagesJson }: PageIndexType) => {
+    const { t, i18n } = useTranslation();
+
     return (
         <div className="page-container">
             <Header />

@@ -4,6 +4,7 @@ import PageTitle from "../components/PageTitle";
 import ContactCard from "../components/cards/ContactCard";
 import Footer from "../components/Footer";
 import { PageIndexType } from "../types";
+
 import { useTranslation } from "react-i18next";
 
 import LinkedInUrl from "../img/LinkedIn.png";
@@ -13,7 +14,7 @@ import GitHubUrl from "../img/GitHub-mark.png";
 const title: string = "Contact";
 
 const ContactPage = ({ pagesJson }: PageIndexType) => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     
     return (
         <div className="page-container">

@@ -6,12 +6,12 @@ import CodingSkillCard from "../components/cards/CodingSkillCard";
 import Footer from "../components/Footer";
 import { SkillPageType } from "../types";
 
+import { useTranslation } from 'react-i18next';
+
 const title: string = "Skills";
 
 const SkillPage = ({ pagesJson, codingSkillsJson }: SkillPageType) => {
-
-
-
+    const { t, i18n } = useTranslation();
     
     return (
         <div className="page-container">

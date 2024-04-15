@@ -5,9 +5,13 @@ import QualificationCard from "../components/cards/QualificationCard";
 import Footer from "../components/Footer";
 import { PageIndexType } from "../types";
 
+import { useTranslation } from 'react-i18next';
+
 const title: string = "Qualifications";
 
 const QualificationPage = ({ pagesJson }: PageIndexType) => {
+    const { t, i18n } = useTranslation();
+    
     return (
         <div className="page-container">
             <Header />

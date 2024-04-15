@@ -1,9 +1,10 @@
-const title: string = "Ryoji HASEGAWA";
+import { useTranslation } from "react-i18next";
 
 const Title = () => {
+    const { t } = useTranslation();
     return (
         <h1 className="title">
-            {title}
+            {t("name")}
         </h1>
     )
 }
