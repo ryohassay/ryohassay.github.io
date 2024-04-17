@@ -2,33 +2,59 @@
     "name": "長谷川 凌司",
     "title": "ハードウェアも分かるソフトウェアエンジニア",
 
+    "now": "現在",
+
     "topPage": {
         "title": "自己紹介",
-        "about": "私は注意深さと効率性を自慢とするエンジニアです。大学で電気電子工学を専攻した一方でC++やPython、その他の言語やフレームワークを使ったプログラミングが得意です。大学やインターンシップでロボティクスや画像認識のプロジェクトを行った経験からハードウェアとソフトウェア両方に興味があります。\nプログラミング言語の他、中国語・韓国語・マレー/インドネシア語・広東語も勉強しており、また日本語（ネイティブ）と英語（第二言語）が話せます。\n日本の高校を卒業した後、アメリカ・中国・マレーシアの大学に行き、学生団体の立ち上げと運営を行った経験から、様々なバックグラウンドや考え方を持った人達とのチームワークが得意です。",
-        "map_title": "通ったことのある大学と行ったことのある場所"
+        "about": "私は注意深さと効率性を自慢とするエンジニアです。大学で電気電子工学を専攻した一方でC++やPython、その他の言語やフレームワークを使ったプログラミングが得意です。大学やインターンシップでロボティクスや画像認識のプロジェクトを行った経験からハードウェアとソフトウェア両方に興味があります。\n\nプログラミング言語の他、中国語・韓国語・マレー/インドネシア語・広東語も勉強しており、また日本語（ネイティブ）と英語（第二言語）が話せます。\n\n日本の高校を卒業した後、アメリカ・中国・マレーシアの大学に行き、学生団体の立ち上げと運営を行った経験から、様々なバックグラウンドや考え方を持った人達とのチームワークが得意です。",
+        "mapTitle": "通ったことのある大学と行ったことのある場所"
     },
 
     "educationPage": {
-        "title": "Education",
+        "title": "学歴",
         "card1": {
-            "title": "University of Nottingham Malaysia | Selangor, Malaysia",
-            "sub": "BEng (Hons) in Electrical and Electronic Engineering (graduating)",
-            "detail": "I learnt about transistors, motor mechanisms, assembly language and computer vision. For my graduation research, I worked on a project that used Raspberry Pi, Python, OpenCV, and PyTorch to count the number of people in a crowd from camera images using deep learning techniques and display them in a web application. \n\nI participated in the badminton team on campus and a kyudo club off campus, too."
+            "title": "渋谷教育学園幕張高等学校 | 千葉県",
+            "sub": "高校普通科",
+            "detail": "日本の原子力発電所の立地集中をテーマに卒業論文を書き、優秀賞を受賞しました。\n\nまた副部長としてバドミントン部を率いました。"
         },
         "card2": {
-            "title": "University of Nottingham Ningbo China | Zhejiang, China",
-            "sub": "BEng (Hons) in Electrical and Electronic Engineering (completed the second and third years)",
-            "detail": "I worked on a project to create a robotic car using a microcomputer to control motors and sensors, learning to build hardware components and code. \n\nI also participated in the badminton club and ultimate frisbee club on campus."
-        },
-        "card3": {
-            "title": "DePauw University | Indiana, US",
-            "sub": "BA in Physics (completed the first and second years)",
+            "title": "DePauw University | アメリカ インディアナ州",
+            "sub": "学士物理学専攻（1・2年在籍）",
             "detail": "Taking advantage of being in a liberal arts college, I studied a wide range of academic disciplines, including economics, sociology, psychology and philosophy of science, without being restricted to my major. In particular, in the sociology class, I learnt about economic inequality and the mechanisms of racial discrimination by reading texts and discussing them in class. Through classes and daily life, I acquired English language skills, culture and logical thinking skills."
         },
+        "card3": {
+            "title": "University of Nottingham Ningbo China | 中国 浙江省",
+            "sub": "電気電子工学優等学士（2・3年生在籍）",
+            "detail": "マイクロコンピュータを使ってモーターやセンサーを制御するロボットカーの作成するプロジェクトに取り組み、ハードウェアの構築とコーディングを学びました。\n\n課外活動ではバドミントンサークルとアルティメットフリスビーサークルに参加していました。"
+        },
         "card4": {
-            "title": "Makuhari Junior and Senior High School | Chiba, Japan",
-            "sub": "High school diploma",
-            "detail": "I wrote a graduation thesis on the theme of 'the Locational Concentration of Nuclear Power Plants in Japan', and gained an award. \n\nI also lead the school badminton team as its vice-captain."
+            "title": "University of Nottingham Malaysia | マレーシア セランゴール州",
+            "sub": "電気電子工学優等学士（卒業）",
+            "detail": "トランジスタやモーターの仕組み、アッセンブリ言語、コンピュータビジョンなどについて学びました。卒業研究ではRaspberry Pi・Python・OpenCV・PyTorchを用いて深層学習モデルでカメラ画像から人混みの人数を数え、ウェブアプリに表示するプロジェクトを行いました。 \n\n課外活動ではバドミントンサークルと弓道クラブ（学外）に参加していました。"
+        }
+    },
+
+    "workPage": {
+        "title": "職歴",
+        "card1": {
+            "title": "株式会社マスタープログレス | 東京都",
+            "sub": "データ整理事務",
+            "detail": "Google広告（旧Googleアドワーズ）、Yahooプロモーション広告、エクセル関数やマクロ、簡単なウェブブラウジングオートメーションを活用して営業部で使用するデータを整理。I was given a discretion on how to work on the data, so I decided to quickly learn and use Excel VBA to make my work efficient."
+        },
+        "card2": {
+            "title": "Information Technology Associates Program | アメリカ インディアナ州",
+            "sub": "Associate (生物医学画像可視化インターン)",
+            "detail": "生物医学の研究室で研究用画像加工・解析ソフトAmiraを使った顕微鏡写真のイメージング・視覚化を担当。研究室員として生物学の学会にも参加しました。\n\nAssociateになる前はapprentice（見習い）として6週間ごとに違うインターンホストの下でITスキルを学びました。\nこのジョブローテーションでは音声編集ソフトを使った曲作りやADDIEモデルに沿った教育のシミュレーションを行いました。"
+        },
+        "card3": {
+            "title": "株式会社モルフォ | 東京都",
+            "sub": "画像処理インターン",
+            "detail": "深層学習を用いて韓国アイドルグループBTSのミュージックビデオでメンバーを追跡し分類するプロジェクトを行いました。このプロジェクトではPython・OpenCV・PyTorchの技術を使いました。" 
+        },
+        "card4": {
+            "title": "Avanade Japan | Tokyo, Japan",
+            "sub": "ソフトウェアエンジニア",
+            "detail": "新卒入社で現在研修中。"
         }
     }
 }

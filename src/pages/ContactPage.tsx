@@ -18,7 +18,7 @@ const ContactPage = ({ pagesJson }: PageIndexType) => {
     
     return (
         <div className="page-container">
-            <Header />
+            <Header path="/contact"/>
             <PageIndex pagesJson={pagesJson} />
             <PageTitle pageTitle={title}/>
             <div className="main">

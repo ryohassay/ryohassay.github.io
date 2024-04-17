@@ -14,7 +14,7 @@ const PersonalPage = ({ pagesJson }: PageIndexType) => {
     
     return (
         <div className="page-container">
-            <Header />
+            <Header path="/personal" />
             <PageIndex pagesJson={pagesJson} />
             <PageTitle pageTitle={title}/>
             <div className="main">

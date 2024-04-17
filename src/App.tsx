@@ -32,6 +32,8 @@ function App() {
             <Routes>
                 <Route path='/' element={<TopPage pagesJson={pagesJson} />} />
                 <Route path='/:lang' element={<TopPage pagesJson={pagesJson} />} />
+                <Route path='/:lang/education' element={<EducationPage pagesJson={pagesJson} />} />
+                <Route path='/:lang/work' element={<WorkPage pagesJson={pagesJson} />} />
             </Routes>
         </BrowserRouter>
     )

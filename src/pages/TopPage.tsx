@@ -8,19 +8,17 @@ import { useTranslation } from 'react-i18next';
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 
-const title: string = "About Me";
+// const title: string = "About Me";
 
 const TopPage = ({ pagesJson }: PageIndexType) => {
     const { t, i18n } = useTranslation();
     const { lang } = useParams();
-    
-    console.log(lang);
-    
+
     useEffect(() => {
         if(lang === 'en') {
             i18n.changeLanguage('en');
         }
-        else if(lang === 'jp') {
+        else if(lang === 'ja') {
             i18n.changeLanguage('ja');
         }
         else {
@@ -30,7 +28,7 @@ const TopPage = ({ pagesJson }: PageIndexType) => {
     
     return (
         <div className="page-container">
-            <Header />
+            <Header path="/"/>
             <PageIndex pagesJson={pagesJson} />
             <PageTitle pageTitle={t("topPage.title")}/>
             <div className="main">
@@ -39,7 +37,7 @@ const TopPage = ({ pagesJson }: PageIndexType) => {
                 </div>
 
                 <div className="map">
-                    <h3 className="map-title">Schools I Have Attended and Places I Have Travelled to</h3>
+                    <h3 className="map-title">{t("topPage.mapTitle")}</h3>
                     <div className="map-frame">
                         <iframe src="https://www.google.com/maps/d/embed?mid=1CFD22bWuaEORwg8E8eDhYjD2pgz5xQM&ehbc=2E312F" width="640" height="480"></iframe>
                     </div>

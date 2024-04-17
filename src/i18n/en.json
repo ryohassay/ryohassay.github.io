@@ -2,33 +2,59 @@
     "name": "Ryoji HASEGAWA",
     "title": "Software Engineer with Hardware Knowledge",
 
+    "now": "Present",
+
     "topPage": {
         "title": "About Me",
         "about": "I am an aspiring engineering student who prides myself on my careful work and efficiency. While studying electronics at university, I also have programming experience in C++, Python, and other languages and frameworks. I am interested in both hardware and software as I worked on robotics and image recognition projects at university and an internship.\n\nI also like to learn natural languages such as Mandarin Chinese, Korean, Malay/Indonesian, and Cantonese. I am a native Japanese speaker and speak English as a second language, as well.\n\nAfter graduating from high school in Japan, I have attended university in the US, China and Malaysia, and I was involved in establishing and running a student organization in diverse environment, so I am good at teamwork with people from different backgrounds and perspectives. I was also fortunate enough to have various exchange programs with students from Singapore, China, and Taiwan and travels to New Zealand, Hong Kong, Macau, the US, and Malaysia.",
-        "map_title": "Schools I Have Attended and Places I Have Travelled to"
+        "mapTitle": "Schools I Have Attended and Places I Have Travelled to"
     },
 
     "educationPage": {
         "title": "Education",
         "card1": {
-            "title": "University of Nottingham Malaysia | Selangor, Malaysia",
-            "sub": "BEng (Hons) in Electrical and Electronic Engineering (graduating)",
-            "detail": "I learnt about transistors, motor mechanisms, assembly language and computer vision. For my graduation research, I worked on a project that used Raspberry Pi, Python, OpenCV, and PyTorch to count the number of people in a crowd from camera images using deep learning techniques and display them in a web application. \n\n\n\nI participated in the badminton team on campus and a kyudo club off campus, too."
+            "title": "Makuhari Junior and Senior High School | Chiba, Japan",
+            "sub": "High school diploma",
+            "detail": "I wrote a graduation thesis on the theme of 'the Locational Concentration of Nuclear Power Plants in Japan', and gained an award. \n\n\n\nI also lead the school badminton team as its vice-captain."
         },
         "card2": {
-            "title": "University of Nottingham Ningbo China | Zhejiang, China",
-            "sub": "BEng (Hons) in Electrical and Electronic Engineering (completed the second and third years)",
-            "detail": "I worked on a project to create a robotic car using a microcomputer to control motors and sensors, learning to build hardware components and code. \n\n\n\nI also participated in the badminton club and ultimate frisbee club on campus."
-        },
-        "card3": {
             "title": "DePauw University | Indiana, US",
             "sub": "BA in Physics (completed the first and second years)",
             "detail": "Taking advantage of being in a liberal arts college, I studied a wide range of academic disciplines, including economics, sociology, psychology and philosophy of science, without being restricted to my major. In particular, in the sociology class, I learnt about economic inequality and the mechanisms of racial discrimination by reading texts and discussing them in class. Through classes and daily life, I acquired English language skills, culture and logical thinking skills."
         },
+        "card3": {
+            "title": "University of Nottingham Ningbo China | Zhejiang, China",
+            "sub": "BEng (Hons) in Electrical and Electronic Engineering (completed the second and third years)",
+            "detail": "I worked on a project to create a robotic car using a microcomputer to control motors and sensors, learning to build hardware components and code. \n\nI also participated in the badminton club and ultimate frisbee club on campus."
+        },
         "card4": {
-            "title": "Makuhari Junior and Senior High School | Chiba, Japan",
-            "sub": "High school diploma",
-            "detail": "I wrote a graduation thesis on the theme of 'the Locational Concentration of Nuclear Power Plants in Japan', and gained an award. \n\n\n\nI also lead the school badminton team as its vice-captain."
+            "title": "University of Nottingham Malaysia | Selangor, Malaysia",
+            "sub": "BEng (Hons) in Electrical and Electronic Engineering (graduating)",
+            "detail": "I learnt about transistors, motor mechanisms, assembly language and computer vision. For my graduation research, I worked on a project that used Raspberry Pi, Python, OpenCV, and PyTorch to count the number of people in a crowd from camera images using deep learning techniques and display them in a web application. \n\nI participated in the badminton team on campus and a kyudo club off campus, too."
+        }
+    },
+
+    "workPage": {
+        "title": "Work",
+        "card1": {
+            "title": "MasterProgress, Inc. | Tokyo, Japan",
+            "sub": "Data Managing Clerk",
+            "detail": "I arranged data that the sales staff uses by using Google Ads, Yahoo Promotional Ads, Excel functions, macros and simple web browsing automation. I was given a discretion on how to work on the data, so I decided to quickly learn and use Excel VBA to make my work efficient."
+        },
+        "card2": {
+            "title": "Information Technology Associates Program | Indiana, US",
+            "sub": "Associate (Biomedical Imaging and Visualization Intern)",
+            "detail": "I coloured microscopic pictures of fish hearts to visualize vessels, cells, and other organs digitally, using a digital visualization software, Amira. I was fortumnate to be able to participate in biology conferences (including an international one) as a lab worker. \n\nBefore being an associate, I worked as an apprentice under intern hosts on campus for six weeks for each to learn IT skills.\nIn this job rotation, I had a chance to create a music piece using an audio-editing software and Simulate teaching a PDF-editing software, following the ADDIE model, an instructional design."
+        },
+        "card3": {
+            "title": "Morpho, Inc. | Tokyo, Japan",
+            "sub": "Image Processing Intern",
+            "detail": "I worked on a project that tracks and names mumbers in a music video of BTS, one of the most popular K-pop artists, using deep learning. In this project, I utilized Python, OpenCV, and PyTorch." 
+        },
+        "card4": {
+            "title": "Avanade Japan | Tokyo, Japan",
+            "sub": "Software Engineer",
+            "detail": "I joined the company as a new graduate, and I am on training."
         }
     }
 }

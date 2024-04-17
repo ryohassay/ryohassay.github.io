@@ -15,7 +15,7 @@ const SkillPage = ({ pagesJson, codingSkillsJson }: SkillPageType) => {
     
     return (
         <div className="page-container">
-            <Header />
+            <Header path="/skill" />
             <PageIndex pagesJson={pagesJson} />
             <PageTitle pageTitle={title}/>
             <div className="main">
