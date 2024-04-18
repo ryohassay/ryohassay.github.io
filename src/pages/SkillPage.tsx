@@ -17,29 +17,29 @@ const SkillPage = ({ pagesJson, codingSkillsJson }: SkillPageType) => {
         <div className="page-container">
             <Header path="/skill" />
             <PageIndex pagesJson={pagesJson} />
-            <PageTitle pageTitle={title}/>
+            <PageTitle pageTitle={t("skillPage.title")}/>
             <div className="main">
                 <CodingSkillCard codingSkillsJson={codingSkillsJson} />
 
                 <SkillCard 
-                    titleText="Languages" 
+                    titleText={t("skillPage.cards.0.title")} 
                     skills={[
-                        {skillText: "Japanese", subText: "native"},
-                        {skillText: "English", subText: "advanced"},
-                        {skillText: "Mandarin", subText: "intermediate"}, 
-                        {skillText: "Korean", subText: "beginner"}, 
-                        {skillText: "Cantonese", subText: "absolute beginner"}, 
-                        {skillText: "Malay / Indonesian", subText: "absolute beginner"}, 
+                        {skillText: t("skillPage.cards.0.skills.0.text"), subText: t("skillPage.cards.0.skills.0.subText")},
+                        {skillText: t("skillPage.cards.0.skills.1.text"), subText: t("skillPage.cards.0.skills.1.subText")},
+                        {skillText: t("skillPage.cards.0.skills.2.text"), subText: t("skillPage.cards.0.skills.2.subText")},
+                        {skillText: t("skillPage.cards.0.skills.3.text"), subText: t("skillPage.cards.0.skills.3.subText")},
+                        {skillText: t("skillPage.cards.0.skills.4.text"), subText: t("skillPage.cards.0.skills.4.subText")},
+                        {skillText: t("skillPage.cards.0.skills.5.text"), subText: t("skillPage.cards.0.skills.5.subText")},
                     ]}        
                 />
 
                 <SkillCard 
-                    titleText="Soft skills" 
+                    titleText={t("skillPage.cards.1.title")} 
                     skills={[
-                        {skillText: "Logical thinking", subText: ""},
-                        {skillText: "Thought transcription", subText: ""},
-                        {skillText: "Teamwork", subText: ""}, 
-                        {skillText: "Idea conceiving", subText: ""},
+                        {skillText: t("skillPage.cards.1.skills.0.text"), subText: t("skillPage.cards.1.skills.0.subText")},
+                        {skillText: t("skillPage.cards.1.skills.1.text"), subText: t("skillPage.cards.1.skills.1.subText")},
+                        {skillText: t("skillPage.cards.1.skills.2.text"), subText: t("skillPage.cards.1.skills.2.subText")},
+                        {skillText: t("skillPage.cards.1.skills.3.text"), subText: t("skillPage.cards.1.skills.3.subText")},
                     ]}        
                 />
             </div>

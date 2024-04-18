@@ -9,7 +9,6 @@ type HeaderPropsType = {
     path: string;
 };
 
-// const Header = ({i18n}: HeaderProps) => {
 const Header = ({ path }: HeaderPropsType) => {
     const { t, i18n } = useTranslation()
     

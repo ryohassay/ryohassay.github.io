@@ -56,5 +56,56 @@
             "sub": "Software Engineer",
             "detail": "I joined the company as a new graduate, and I am on training."
         }
+    },
+
+    "projectPage": {
+        "title": "Project",
+        "cards": [    
+            {
+                "title": "Transit Interchange Search Web Application",
+                "detail": "I created a web application that is convenient when you have multiple destinations and want to search all the routes and fares at once. I utilized HTML, CSS, JavaScript, and Python."
+            },
+            {
+                "title": "Face Tracking and Classification",
+                "detail": "I worked on a project that tracks and names mumbers in a music video of BTS, one of the most popular K-pop artists, using deep learning. In this project, I utilized Python, OpenCV, and PyTorch. Through this project, I learnt basic deep learning theory and methods and improved my Python skills."
+            },
+            {
+                "title": "Real-time Crowd Counting",
+                "detail": "The crowdedness of the school cafeteria was inconvenient for many students and staff members. I worked on a project to count the number of crowds using deep learning techniques and display it on a web application so that it can encourage users to avoid most crowded times. For this project, I used Raspberry Pi, Python, OpenCV, and PyTorch."
+            }
+        ]
+    },
+
+    "skillPage": {
+        "title": "Skills",
+        "codingCard": {
+            "title": "Coding"
+        },
+        "cards": [
+            {
+                "title": "Languages",
+                "skills": [
+                    {"text": "Japanese", "subText": "native"},
+                    {"text": "English", "subText": "advanced"},
+                    {"text": "Mandarin", "subText": "intermediate"}, 
+                    {"text": "Korean", "subText": "beginner"}, 
+                    {"text": "Cantonese", "subText": "absolute beginner"}, 
+                    {"text": "Malay / Indonesian", "subText": "absolute beginner"}
+                ]
+            },
+            {
+                "title": "Soft Skills",
+                "skills": [
+                    {"text": "Logical thinking", "subText": ""},
+                    {"text": "Thought transcription", "subText": ""},
+                    {"text": "Teamwork", "subText": ""}, 
+                    {"text": "Idea conceiving", "subText": ""}
+                ]
+            }
+        ]
+    },
+
+    "qualificationPage": {
+        "title": "Qualifications"
     }
 }

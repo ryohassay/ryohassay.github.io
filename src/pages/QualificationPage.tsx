@@ -5,7 +5,7 @@ import QualificationCard from "../components/cards/QualificationCard";
 import Footer from "../components/Footer";
 import { PageIndexType } from "../types";
 
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 const title: string = "Qualifications";
 
@@ -14,9 +14,9 @@ const QualificationPage = ({ pagesJson }: PageIndexType) => {
     
     return (
         <div className="page-container">
-            <Header path="/qualitication" />
+            <Header path="/qualification" />
             <PageIndex pagesJson={pagesJson} />
-            <PageTitle pageTitle={title}/>
+            <PageTitle pageTitle={t("qualificationPage.title")} />
             <div className="main">
                 <QualificationCard 
                     titleText="IELTS Academic Module 7.5" 

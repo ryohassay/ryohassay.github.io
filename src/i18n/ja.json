@@ -52,9 +52,60 @@
             "detail": "深層学習を用いて韓国アイドルグループBTSのミュージックビデオでメンバーを追跡し分類するプロジェクトを行いました。このプロジェクトではPython・OpenCV・PyTorchの技術を使いました。" 
         },
         "card4": {
-            "title": "Avanade Japan | Tokyo, Japan",
+            "title": "Avanade Japan | 東京都",
             "sub": "ソフトウェアエンジニア",
             "detail": "新卒入社で現在研修中。"
         }
+    },
+
+    "projectPage": {
+        "title": "プロジェクト",
+        "cards": [
+            {
+              "title": "乗換検索ウェブアプリ",
+              "detail": "複数の目的地があり、一度にすべてのルートと運賃を検索したい場合に便利なウェブアプリケーションを作成しました。このプロジェクトでは、HTML、CSS、JavaScript、Pythonを使用しました。"
+            },
+            {
+              "title": "顔追跡・分類",
+              "detail": "最も人気のあるK-popアーティストの一つであるBTSの音楽ビデオのメンバーを追跡し、深層学習を使用して名前をつけるプロジェクトに取り組みました。このプロジェクトでは、Python、OpenCV、PyTorchを使用しました。このプロジェクトを通じて、基本的な深層学習の理論と方法を学び、Pythonスキルを向上させました。"
+            },
+            {
+              "title": "リアルタイム群集数カウント",
+              "detail": "大学のカフェテリアの混雑は多くの学生や教職員にとって不便でした。私は深層学習技術を使用して群集の数を数え、ウェブアプリケーションに表示するプロジェクトに取り組みました。これにより、ユーザーが最も混雑した時間を避けるよう促すことができます。このプロジェクトでは、Raspberry Pi、Python、OpenCV、PyTorchを使用しました。"
+            }
+        ]
+    },
+
+    "skillPage": {
+        "title": "スキル",
+        "codingCard": {
+            "title": "プログラミング"
+        },
+        "cards": [
+            {
+                "title": "言語",
+                "skills": [
+                    {"text": "日本語", "subText": "母語"},
+                    {"text": "英語", "subText": "上級"},
+                    {"text": "中国語", "subText": "中級"}, 
+                    {"text": "韓国語", "subText": "初級"}, 
+                    {"text": "韓国語", "subText": "入門"}, 
+                    {"text": "マレー/インドネシア語", "subText": "入門"}
+                ]
+            },
+            {
+                "title": "ソフトスキル",
+                "skills": [
+                    {"text": "論理的思考", "subText": ""},
+                    {"text": "施行の言語化", "subText": ""},
+                    {"text": "チームワーク", "subText": ""}, 
+                    {"text": "アイデアを膨らませること", "subText": ""}
+                ]
+            }
+        ]
+    },
+
+    "qualificationPage": {
+        "title": "資格"
     }
 }
