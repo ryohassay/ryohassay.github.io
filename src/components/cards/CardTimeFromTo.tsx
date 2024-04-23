@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 const CardTimeFromTo = ({ from, to }: { from: Date, to: Date}) => {
     const { t, i18n } = useTranslation();
     const locale = i18n.language;
-    // const locale = "en-GB"
     const options: Intl.DateTimeFormatOptions = { year: "numeric", month: "long" };
     const today = new Date();
     const isToday = (to.getFullYear() == today.getFullYear() && to.getMonth() == today.getMonth() && to.getDate() == today.getDate());

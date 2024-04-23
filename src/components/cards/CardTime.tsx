@@ -1,5 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 const CardTime = ({ time }: { time: Date }) => {
-    const locale = "en-GB"
+    const { t, i18n } = useTranslation();
+    const locale = i18n.language;
     const options: Intl.DateTimeFormatOptions = { year: "numeric", month: "long" };
     
     return (

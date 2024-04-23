@@ -106,6 +106,34 @@
     },
 
     "qualificationPage": {
-        "title": "Qualifications"
+        "title": "Qualifications",
+        "cards": [
+            {"title": "IELTS Academic Module 7.5"},
+            {"title": "HSK Level 5: score of 225 / 300 (no pass / fail)"},
+            {"title": "HSK Level 3: pass with a score of 300 / 300"},
+            {"title": "HackerRank 4 Stars on the C++ Badge"}
+        ]
+    },
+
+    "personalPage": {
+        "title": "Personal Interests",
+        "cards": [
+            {
+                "title": "Badminton",
+                "detail": "I started playing badminton when I was in middle school. Since then I've been playing it for more than 10 years, but still I suck at it."
+            },
+            {
+                "title": "Kyudo (Japanese archery)",
+                "detail": "I was in the kyudo club at middle school. I didn't do it for long, but I resumed it when I found a kyudo club in Kuala Lumpur."
+            },
+            {
+                "title": "Learning languages",
+                "detail": "I'm learning Mandarin, Korean, Cantonese, and Malay (Indonesian). I started learning Mandarin in middle school, and since then my interests on learning new languages have never stopped. I started learning Korean and Cantonese as hobbies and Malay as I studied abroad in Malaysia although it wasn't quite necessary in my daily life. However, I think learning a local language is one of the ways to respect people there, so I continued learning it."
+            },
+            {
+                "title": "Travelling",
+                "detail": "Although I'm poor, I like travelling especially abroad. So far, I've been to New Zealand, Singapore (twice), China (twice), Taiwan, the US, Hong Kong (six times), Malaysia, and Macau (twice)."
+            }
+        ]
     }
 }

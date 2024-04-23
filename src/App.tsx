@@ -37,6 +37,7 @@ function App() {
                 <Route path='/:lang/project' element={<ProjectPage pagesJson={pagesJson} />} />
                 <Route path='/:lang/skill' element={<SkillPage pagesJson={pagesJson} codingSkillsJson={codingSkillsJson}/>} />
                 <Route path='/:lang/qualification' element={<QualificationPage pagesJson={pagesJson} />} />
+                <Route path='/:lang/personal' element={<PersonalPage pagesJson={pagesJson} />} />
             </Routes>
         </BrowserRouter>
     )

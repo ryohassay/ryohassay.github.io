@@ -7,8 +7,6 @@ import { PageIndexType } from "../types";
 
 import { useTranslation } from 'react-i18next';
 
-const title: string = "Projects";
-
 const ProjectPage = ({ pagesJson }: PageIndexType) => {
     const { t, i18n } = useTranslation();
 
@@ -16,7 +14,7 @@ const ProjectPage = ({ pagesJson }: PageIndexType) => {
         <div className="page-container">
             <Header path="/project" />
             <PageIndex pagesJson={pagesJson} />
-            <PageTitle pageTitle={t("projectPage.title")}/>
+            <PageTitle pageTitle={t("projectPage.title")} />
             <div className="main">
                 <ProjectCard 
                     titleText={t("projectPage.cards.2.title")}
