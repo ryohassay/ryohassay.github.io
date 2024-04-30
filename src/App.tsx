@@ -14,20 +14,6 @@ import './App.css';
 
 function App() {
     return (
-        // <BrowserRouter>
-        //     <Routes>
-        //         <Route path='/' element={<TopPage pagesJson={pagesJson} />} />
-        //         <Route path='education' element={<EducationPage pagesJson={pagesJson} />} />
-        //         <Route path='work' element={<WorkPage pagesJson={pagesJson} />} />
-        //         <Route path='project' element={<ProjectPage pagesJson={pagesJson} />} />
-        //         <Route path='skill' element={<SkillPage pagesJson={pagesJson} codingSkillsJson={codingSkillsJson}/>} />
-        //         <Route path='qualification' element={<QualificationPage pagesJson={pagesJson} />} />
-        //         <Route path='personal' element={<PersonalPage pagesJson={pagesJson} />} />
-        //         <Route path='resume' element={<ResumePage pagesJson={pagesJson} />} />
-        //         <Route path='contact' element={<ContactPage pagesJson={pagesJson} />} />
-        //     </Routes>
-        // </BrowserRouter>
-
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<TopPage pagesJson={pagesJson} />} />
@@ -38,6 +24,8 @@ function App() {
                 <Route path='/:lang/skill' element={<SkillPage pagesJson={pagesJson} codingSkillsJson={codingSkillsJson}/>} />
                 <Route path='/:lang/qualification' element={<QualificationPage pagesJson={pagesJson} />} />
                 <Route path='/:lang/personal' element={<PersonalPage pagesJson={pagesJson} />} />
+                <Route path='/:lang/resume' element={<ResumePage pagesJson={pagesJson} />} />
+                <Route path='/:lang/contact' element={<ContactPage pagesJson={pagesJson} />} />
             </Routes>
         </BrowserRouter>
     )

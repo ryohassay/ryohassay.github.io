@@ -135,5 +135,10 @@
                 "detail": "Although I'm poor, I like travelling especially abroad. So far, I've been to New Zealand, Singapore (twice), China (twice), Taiwan, the US, Hong Kong (six times), Malaysia, and Macau (twice)."
             }
         ]
+    },
+
+    "resumePage": {
+        "title": "CV",
+        "text": "My CV and other documents are on <l>my LinkedIn profile pages</l>. For Japanese documents, please send an email through the email address written on <l>the LinkedIn page</l>."
     }
 }
