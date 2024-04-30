@@ -18,12 +18,12 @@ const Header = ({ path }: HeaderPropsType) => {
     
     return (
         <div className="header-container">
-            <>
+            <div className="header-title">
                 <Title />
                 <div className="sub-title">
                     {t("title")}
                 </div>
-            </>
+            </div>
             
             <div className="lang-select">
                 <Link to={"/en" + path}>

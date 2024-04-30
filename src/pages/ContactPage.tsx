@@ -24,9 +24,12 @@ const ContactPage = ({ pagesJson }: PageIndexType) => {
             <div className="main">
                 <h4>{t("contactPage.name")}</h4>
                 <table className="service-table">
-                    <ContactCard logoUrl={LinkedInUrl} serviceName="LinkedIn" address="https://www.linkedin.com/in/ryoji-hasegawa/"/>
-                    <ContactCard logoUrl={WantedlyUrl} serviceName={t("contactPage.wantedly")} address="https://www.wantedly.com/id/ryoji_hasegawa"/>
-                    <ContactCard logoUrl={GitHubUrl} serviceName="GitHub" address="https://github.com/ryohassay"/>
+                    <tbody>
+                        <ContactCard logoUrl={LinkedInUrl} serviceName="LinkedIn" address="https://www.linkedin.com/in/ryoji-hasegawa/"/>
+                        <ContactCard logoUrl={WantedlyUrl} serviceName={t("contactPage.wantedly")} address="https://www.wantedly.com/id/ryoji_hasegawa"/>
+                        <ContactCard logoUrl={GitHubUrl} serviceName="GitHub" address="https://github.com/ryohassay"/>
+                    </tbody>
+                    
                 </table>
                 
             </div>
