@@ -5,32 +5,34 @@ import QualificationCard from "../components/cards/QualificationCard";
 import Footer from "../components/Footer";
 import { PageIndexType } from "../types";
 
-const title: string = "Qualifications";
+import { useTranslation } from "react-i18next";
 
 const QualificationPage = ({ pagesJson }: PageIndexType) => {
+    const { t, i18n } = useTranslation();
+    
     return (
         <div className="page-container">
-            <Header />
+            <Header path="/qualification" />
             <PageIndex pagesJson={pagesJson} />
-            <PageTitle pageTitle={title}/>
+            <PageTitle pageTitle={t("qualificationPage.title")} />
             <div className="main">
                 <QualificationCard 
-                    titleText="IELTS Academic Module 7.5" 
+                    titleText={t("qualificationPage.cards.0.title")}
                     time={new Date('2022-7-31')}
                 />
 
                 <QualificationCard 
-                    titleText="HSK Level 5: score of 225 / 300 (no pass / fail)" 
+                    titleText={t("qualificationPage.cards.1.title")}
                     time={new Date('2021-4-10')}
                 />
 
                 <QualificationCard 
-                    titleText="HSK Level 3: pass with a score of 300 / 300" 
+                    titleText={t("qualificationPage.cards.2.title")}
                     time={new Date('2016-10-16')}
                 />
 
                 <QualificationCard 
-                    titleText="HackerRank 4 Stars on the C++ Badge" 
+                    titleText={t("qualificationPage.cards.3.title")}
                     time={new Date('2022-6-17')}
                 />
             </div>
