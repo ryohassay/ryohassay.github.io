@@ -20,12 +20,12 @@ const ContactPage = ({ pagesJson }: PageIndexType) => {
         <div className="page-container">
             <Header path="/contact"/>
             <PageIndex pagesJson={pagesJson} />
-            <PageTitle pageTitle={title}/>
+            <PageTitle pageTitle={t("contactPage.title")} />
             <div className="main">
-                <h4>Ryoji Hasegawa</h4>
+                <h4>{t("contactPage.name")}</h4>
                 <table className="service-table">
                     <ContactCard logoUrl={LinkedInUrl} serviceName="LinkedIn" address="https://www.linkedin.com/in/ryoji-hasegawa/"/>
-                    <ContactCard logoUrl={WantedlyUrl} serviceName="Wantedly (in Japanese)" address="https://www.wantedly.com/id/ryoji_hasegawa"/>
+                    <ContactCard logoUrl={WantedlyUrl} serviceName={t("contactPage.wantedly")} address="https://www.wantedly.com/id/ryoji_hasegawa"/>
                     <ContactCard logoUrl={GitHubUrl} serviceName="GitHub" address="https://github.com/ryohassay"/>
                 </table>
                 

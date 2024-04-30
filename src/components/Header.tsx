@@ -18,10 +18,13 @@ const Header = ({ path }: HeaderPropsType) => {
     
     return (
         <div className="header-container">
-            <Title />
-            <div className="sub-title">
-                {t("title")}
-            </div>
+            <>
+                <Title />
+                <div className="sub-title">
+                    {t("title")}
+                </div>
+            </>
+            
             <div className="lang-select">
                 <Link to={"/en" + path}>
                     <button type="button" onClick={() => i18n.changeLanguage("en")} className="lang-button">

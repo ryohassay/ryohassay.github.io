@@ -140,5 +140,11 @@
     "resumePage": {
         "title": "履歴書",
         "text": "英文履歴書やその他の書類は私の<l>LinkedInプロファイルページ</l>にあります。日本語の履歴書等については<l>LinkedIn</l>に記載のメールアドレスからご連絡下さい。"
+    },
+
+    "contactPage": {
+        "title": "連絡先",
+        "name":"長谷川 凌司（はせがわ りょうじ）",
+        "wantedly": "Wantedly"
     }
 }
