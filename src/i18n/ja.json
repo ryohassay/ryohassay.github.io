@@ -20,7 +20,7 @@
         "card2": {
             "title": "DePauw University | アメリカ インディアナ州",
             "sub": "学士物理学専攻（1・2年在籍）",
-            "detail": "Taking advantage of being in a liberal arts college, I studied a wide range of academic disciplines, including economics, sociology, psychology and philosophy of science, without being restricted to my major. In particular, in the sociology class, I learnt about economic inequality and the mechanisms of racial discrimination by reading texts and discussing them in class. Through classes and daily life, I acquired English language skills, culture and logical thinking skills."
+            "detail": "リベラルアーツ校の利点を生かし、専攻にとらわれず、経済学、社会学、心理学、科学哲学など幅広い学問分野を学びました。特に社会学の授業では、経済格差や人種差別のメカニズムについて、文章を読んだり授業でディスカッションしたりしながら学びました。授業や日常生活を通して、英語力、教養、論理的思考力を身につけることができました。"
         },
         "card3": {
             "title": "University of Nottingham Ningbo China | 中国 浙江省",
@@ -30,7 +30,7 @@
         "card4": {
             "title": "University of Nottingham Malaysia | マレーシア セランゴール州",
             "sub": "電気電子工学優等学士（卒業）",
-            "detail": "トランジスタやモーターの仕組み、アッセンブリ言語、コンピュータビジョンなどについて学びました。卒業研究ではRaspberry Pi・Python・OpenCV・PyTorchを用いて深層学習モデルでカメラ画像から人混みの人数を数え、ウェブアプリに表示するプロジェクトを行いました。 \n\n課外活動ではバドミントンサークルと弓道クラブ（学外）に参加していました。"
+            "detail": "トランジスタやモーターの仕組み、アセンブリ言語、コンピュータビジョンなどについて学びました。卒業研究ではRaspberry Pi・Python・OpenCV・PyTorchを用いて深層学習モデルでカメラ画像から人混みの人数を数え、ウェブアプリに表示するプロジェクトを行いました。 \n\n課外活動ではバドミントンサークルと弓道クラブ（学外）に参加していました。"
         }
     },
 
@@ -39,7 +39,7 @@
         "card1": {
             "title": "株式会社マスタープログレス | 東京都",
             "sub": "データ整理事務",
-            "detail": "Google広告（旧Googleアドワーズ）、Yahooプロモーション広告、エクセル関数やマクロ、簡単なウェブブラウジングオートメーションを活用して営業部で使用するデータを整理。I was given a discretion on how to work on the data, so I decided to quickly learn and use Excel VBA to make my work efficient."
+            "detail": "Google広告（旧Googleアドワーズ）、Yahooプロモーション広告、エクセル関数やマクロ、簡単なウェブブラウジングオートメーションを活用して営業部で使用するデータを整理。仕事の仕方については裁量が与えられていたため、作業効率化のためExcel VBAを学習し活用しました。"
         },
         "card2": {
             "title": "Information Technology Associates Program | アメリカ インディアナ州",
