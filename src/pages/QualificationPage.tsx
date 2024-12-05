@@ -35,6 +35,11 @@ const QualificationPage = ({ pagesJson }: PageIndexType) => {
                     titleText={t("qualificationPage.cards.3.title")}
                     time={new Date('2022-6-17')}
                 />
+
+                <QualificationCard 
+                    titleText={t("qualificationPage.cards.4.title")}
+                    time={new Date('2024-11-21')}
+                />
             </div>
             <Footer />
         </div>
